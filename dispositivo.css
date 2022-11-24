@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+    max-width: 100vw;
+}
+header h1{
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: absolute;
+    color: #e1d6cce2;
+}
+header img{
+    height: 500px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #e56007;
+    border-radius: 10px;
+}
+header nav {
+    border-top: 2px solid #e56007;
+    border-bottom: 2px solid #e56007;
+    position: absolute;
+    top: 190px;
+    width: 100%;
+    background-color: #e1d6cce2;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    padding: 1rem 1.5rem;
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 2.5rem;
+    color: #e56007;
+}
+div{
+    background-color: #9795941d;
+
+}
+#Queson h2{
+    font-size: 2.5rem;
+    color: #e56007;
+    border-bottom: 2px solid #e56007;
+    padding-left: 15px;
+}
+#Queson p{
+    width: 100%;
+    display: flex;
+    padding-left: 30px;
+}
+#Caracteristicas h2{
+    font-size: 2.5rem;
+    color: #e56007;
+    border-bottom: 2px solid #e56007;
+    padding-left: 15px;
+}
+#Caracteristicas p{
+    width: 100%;
+    display: flex;
+    padding-left: 30px;
+}
+#Tabla h2{
+    font-size: 2.5rem;
+    color: #e56007;
+    border-bottom: 2px solid #e56007;
+    padding-left: 15px;
+}
+#Tabla table{
+    background-color: #e1d6cce2;
+    margin:0 auto;
+    text-align: left;
+    width: 100%;  
+}
+#Tabla th, td{
+    border: solid 1px #e56007;
+    text-align: center;
+}
+#Tabla thead{
+    background-color: #e56007;
+    
+}
+#Video h2{
+    font-size: 2.5rem;
+    color: #e56007;
+    border-bottom: 2px solid #e56007;
+    padding-left: 15px;
+}
+#Video iframe{
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+}
+#Formulario h2{
+    font-size: 2.5rem;
+    color: #e56007;
+    border-bottom: 2px solid #e56007;
+    padding-left: 15px;
+}
+#Formulario form{
+    border-radius: 10px;
+    background-color: #e560075b;
+    padding: 15px;
+}
+
+#Formulario fieldset{
+    border-radius: 10px;
+    padding: 15px;
+}
+#Formulario p{
+    padding-left: 15px;
+}
+footer {
+    background-color: #1e602a4c;
+    padding: 10px 10px;
+    margin-top: 20px;
+    color: #e56007;
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 65%;
+    margin-left: 17%;
+    border-radius: 30px;
+}
+footer address{
+    text-align: center;
+    font-size: 1rem;
+}
+footer h3{
+    text-align: center;
+    font-size: 1rem;
+}
